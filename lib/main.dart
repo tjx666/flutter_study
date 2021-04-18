@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import './pages/widget_life_cycle.dart';
+import './pages/stateless_widget_life_cycle.dart';
+import './pages/stateful_widget_life_cycle.dart';
+import './pages/set_state.dart';
+import './pages/automatic_keep_alive.dart';
+import './pages/keep_alive_widget.dart';
 
 void main() {
   runApp(App());
@@ -12,9 +16,9 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Study Flutter',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
-      home: TestWidgetLifeCycle(),
+      home: TestStatelessWidgetLifeCycle(),
     );
   }
 }

@@ -1,3 +1,9 @@
 {
-    "dart.flutterSdkPath": "/Users/yutengjing/apps/flutter/latest"
+    "dart.flutterSdkPath": "/Users/yutengjing/apps/flutter/latest",
+    "path-autocomplete.pathMappings": {
+        "assets": "${folder}/assets"
+    },
+    "terminal.integrated.env.osx": {
+        "YTJ_FLUTTER_VERSION": "latest"
+    },
 }
