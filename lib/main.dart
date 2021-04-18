@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import './pages/stateless_widget_life_cycle.dart';
 import './pages/stateful_widget_life_cycle.dart';
-import './pages/set_state.dart';
 import './pages/automatic_keep_alive.dart';
 import './pages/keep_alive_widget.dart';
 
@@ -18,7 +17,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: TestStatelessWidgetLifeCycle(),
+      home: TestStatefulWidgetLifeCycle(),
     );
   }
 }

@@ -62,6 +62,7 @@ class _TestStatelessWidgetLifeCycleState
       ),
       body: Center(
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
             StatelessWidgetLifeCycle(),
             if (visible) const ConstStatelessWidget(),
@@ -69,7 +70,7 @@ class _TestStatelessWidgetLifeCycleState
               onPressed: () {
                 setState(() {});
               },
-              child: const Text('call setState'),
+              child: const Text('parent call setState'),
             ),
             ElevatedButton(
                 onPressed: () {
