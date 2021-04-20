@@ -6,6 +6,7 @@
 
 - [x] stateless widget lifeCycle
 - [x] stateful widget lifeCycle
+- [ ] page life cycle
 - [ ] list view
 - [ ] keep alive
 
@@ -13,8 +14,8 @@
 
 ### Stateless Widget LifeCycle
 
-![stateless widget life cycle](https://github.com/tjx666/flutter_study/blob/master/assets/drawio/exports/stateless_widget_life_cycle.png?raw=true)
+<img src="https://github.com/tjx666/flutter_study/blob/master/assets/drawio/exports/stateless_widget_life_cycle.png?raw=true" alt="stateless widget life cycle" style="zoom:50%;" />
 
 ### Stateful Widget LifeCycle
 
-![stateful widget life cycle](https://github.com/tjx666/flutter_study/blob/master/assets/drawio/exports/stateful_widget_life_cycle.png?raw=true)
+<img src="https://github.com/tjx666/flutter_study/blob/master/assets/drawio/exports/stateful_widget_life_cycle.png?raw=true" alt="stateful widget life cycle" style="zoom:50%;" />
