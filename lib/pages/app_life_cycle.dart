@@ -22,15 +22,17 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     super.dispose();
   }
 
+  /// 例如按虚拟按键返回桌面退出 flutter 应用时，将 flutter 应用这个应用级别的 route pop
   @override
   Future<bool> didPopRoute() async {
-    print('[HomePage] Route LifeCycle: pop route');
+    print('[HomePage] App Route LifeCycle: pop route');
     return false;
   }
 
+  /// 没见触发过
   @override
   Future<bool> didPushRoute(String route) async {
-    print('[HomePage] Route LifeCycle: push route');
+    print('[HomePage] App Route LifeCycle: push route');
     return false;
   }
 
@@ -60,14 +62,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
   }
 }
 
-class TestRouter extends StatefulWidget {
-  TestRouter({Key? key}) : super(key: key);
+class TestAppLifeCycle extends StatefulWidget {
+  TestAppLifeCycle({Key? key}) : super(key: key);
 
   @override
-  _TestRouterState createState() => _TestRouterState();
+  _TestAppLifeCycleState createState() => _TestAppLifeCycleState();
 }
 
-class _TestRouterState extends State<TestRouter> {
+class _TestAppLifeCycleState extends State<TestAppLifeCycle> {
   @override
   Widget build(BuildContext context) {
     return HomePage();

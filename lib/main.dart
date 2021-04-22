@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 // import './pages/stateful_widget_life_cycle.dart';
 // import './pages/app_life_cycle.dart';
 import './pages/route_life_cycle.dart';
+// import './pages/app_life_cycle.dart';
 // import './pages/automatic_keep_alive.dart';
 // import './pages/keep_alive_widget.dart';
 
@@ -23,6 +24,7 @@ class App extends StatelessWidget {
       // home: TestStatefulWidgetLifeCycle(),
       home: TestRouteLifeCycle(),
       navigatorObservers: [routeObserver],
+      // home: TestAppLifeCycle(),
     );
   }
 }
