@@ -3,12 +3,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "dart",
-            "type": "dart",
-            "request": "launch",
-            "program": "${file}"
-        },
-        {
             "name": "debug",
             "type": "dart",
             "request": "launch"

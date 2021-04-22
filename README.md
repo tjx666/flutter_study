@@ -8,6 +8,11 @@
 - [x] stateful widget life cycle
 - [x] page route life cycle
 - [x] app life cycle
+- [ ] network request
+- [ ] platform view
+- [ ] add to app
+- [ ] android plugin
+- [ ] ffi
 - [ ] list view
 - [ ] keep alive
 
