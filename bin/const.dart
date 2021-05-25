@@ -7,12 +7,6 @@ class ImmutablePoint {
         this.y = y;
 }
 
-class Test {
-  Test() {
-    print(123);
-  }
-}
-
 /*
  * 通过 devtools 可以发现程序运行一开始就存在 5 个 ImmutablePoint 实例
  */
@@ -39,7 +33,7 @@ void main() {
   const p6 = ImmutablePoint(4, 4);
   print(p6.hashCode == hashCode); // => true;
 
-  {
+  if (false) {
     const ImmutablePoint(5, 5);
   }
 }
