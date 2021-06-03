@@ -5,7 +5,11 @@
         {
             "name": "debug",
             "type": "dart",
-            "request": "launch"
+            "request": "launch",
+            "env": {
+                "http_proxy": "http://127.0.0.1:7890",
+                "http_proxys": "http://127.0.0.1:7890"
+            }
         },
         {
             "name": "profile",

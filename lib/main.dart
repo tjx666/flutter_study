@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study/pages/list_view/list_view_builder.dart';
 // import './pages/stateless_widget_life_cycle.dart';
 // import './pages/stateful_widget_life_cycle.dart';
 // import './pages/app_life_cycle.dart';
@@ -12,7 +13,9 @@ import 'package:flutter/material.dart';
 // import './pages/animation/tween_animation.dart';
 // import './pages/connectivity.dart';
 // import './pages/callbacks..dart';
-import './pages/cached_network_image.dart';
+// import './pages/cached_network_image.dart';
+// import './pages/slider.dart';
+import './pages/list_view/list_view_builder.dart';
 
 void main() {
   runApp(App());
@@ -36,7 +39,9 @@ class App extends StatelessWidget {
       // home: TestTweenAnimation(),
       // home: TestConnectivity(),
       // home: TestCallbacks(),
-      home: TestCachedNetworkImage(),
+      // home: TestCachedNetworkImage(),
+      // home: TestSlider(),
+      home: TestListViewBuilder(),
     );
   }
 }

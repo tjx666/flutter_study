@@ -22,12 +22,8 @@ class _TestCachedNetworkImageState extends State<TestCachedNetworkImage> {
   }
 
   Future<List<String>> fetchWallpapers() async {
-    final resp = await Dio().get(
-      'https://wallhaven.cc/api/v1/search?sorting=toplist',
-      options: Options(
-        headers: {'Access-Control-Allow-Origin': '*'},
-      ),
-    );
+    final resp =
+        await Dio().get('https://wallhaven.cc/api/v1/search?sorting=toplist');
     return (resp.data['data'] as List)
         .map((wallpaper) {
           // return wallpaper['thumbs']['original'];

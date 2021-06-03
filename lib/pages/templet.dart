@@ -11,9 +11,7 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('测试...'),
-      ),
+      appBar: AppBar(),
       body: Container(),
     );
   }

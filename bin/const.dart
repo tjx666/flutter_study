@@ -33,6 +33,7 @@ void main() {
   const p6 = ImmutablePoint(4, 4);
   print(p6.hashCode == hashCode); // => true;
 
+  // ignore: dead_code
   if (false) {
     const ImmutablePoint(5, 5);
   }
