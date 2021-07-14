@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_study/pages/list_view/list_view_builder.dart';
+// import 'package:flutter_study/pages/list_view/builder.dart';
 // import './pages/stateless_widget_life_cycle.dart';
 // import './pages/stateful_widget_life_cycle.dart';
 // import './pages/app_life_cycle.dart';
@@ -15,7 +15,11 @@ import 'package:flutter_study/pages/list_view/list_view_builder.dart';
 // import './pages/callbacks..dart';
 // import './pages/cached_network_image.dart';
 // import './pages/slider.dart';
-import './pages/list_view/list_view_builder.dart';
+// import './pages/list_view/list_view_builder.dart';
+// import 'pages/list_view/horizontal.dart';
+// import 'pages/text_field.dart';
+// import 'pages/scrollbar.dart';
+import 'pages/safe_area.dart';
 
 void main() {
   runApp(App());
@@ -39,9 +43,12 @@ class App extends StatelessWidget {
       // home: TestTweenAnimation(),
       // home: TestConnectivity(),
       // home: TestCallbacks(),
-      // home: TestCachedNetworkImage(),
+      // home: TestTextField(),
       // home: TestSlider(),
-      home: TestListViewBuilder(),
+      // home: TestListViewBuilder(),
+      // home: TestHorizontalListView(),
+      // home: TestScrollbar(),
+      home: TestSafeArea(),
     );
   }
 }

@@ -9,11 +9,12 @@ class TestAutomaticKeepAlive extends StatefulWidget {
   _TestAutomaticKeepAliveState createState() => _TestAutomaticKeepAliveState();
 }
 
-class _TestAutomaticKeepAliveState extends State<TestAutomaticKeepAlive> with AutomaticKeepAliveClientMixin {
+class _TestAutomaticKeepAliveState extends State<TestAutomaticKeepAlive>
+    with AutomaticKeepAliveClientMixin {
   @override
   Widget build(BuildContext context) {
     super.build(context);
-    
+
     return Scaffold(
       body: ListView.builder(
         addAutomaticKeepAlives: true,
@@ -37,7 +38,8 @@ class ListItem extends StatefulWidget {
   _ListItemState createState() => _ListItemState();
 }
 
-class _ListItemState extends State<ListItem> with AutomaticKeepAliveClientMixin {
+class _ListItemState extends State<ListItem>
+    with AutomaticKeepAliveClientMixin {
   static final randomColor = RandomColor();
 
   @override
@@ -49,7 +51,7 @@ class _ListItemState extends State<ListItem> with AutomaticKeepAliveClientMixin 
   @override
   Widget build(BuildContext context) {
     super.build(context);
-    
+
     print('List item ${widget.index} build!');
     return Container(
       height: 100,

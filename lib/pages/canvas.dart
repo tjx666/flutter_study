@@ -6,7 +6,8 @@ class MyPainter extends CustomPainter {
     // final width = size.width;
     // final height = size.height;
 
-    canvas.drawRect(Rect.fromLTRB(100, 100, 150, 150), Paint()..color = Colors.red);
+    canvas.drawRect(
+        Rect.fromLTRB(100, 100, 150, 150), Paint()..color = Colors.red);
     // canvas.drawRect(Rect.fromLTWH(100, 100, 50, 50), Paint()..color = Colors.blue);
   }
 

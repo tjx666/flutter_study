@@ -4,9 +4,9 @@ import 'package:flutter/foundation.dart';
 
 class HackNewsItem {
   final String by;
-  final int descendants;
+  final int? descendants;
   final int id;
-  final List<int> kids;
+  final List<int>? kids;
   final int score;
   final int time;
   final String title;
@@ -67,7 +67,7 @@ class HackNewsItem {
       by: map['by'],
       descendants: map['descendants']?.toInt(),
       id: map['id']?.toInt(),
-      kids: List<int>.from(map['kids']),
+      kids: List<int>.from(map['kids'] ?? []),
       score: map['score']?.toInt(),
       time: map['time']?.toInt(),
       title: map['title'],

@@ -8,9 +8,9 @@
 - [x] stateful widget life cycle
 - [x] page route life cycle
 - [x] app life cycle
-- [ ] network request
-- [ ] platform view
+- [x] network request
 - [ ] add to app
+- [ ] platform view
 - [ ] android plugin
 - [ ] ffi
 - [ ] list view

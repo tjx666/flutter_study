@@ -44,7 +44,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
               onWillPop: () async {
                 return shouldPop;
               },
-              child: const SizedBox(width: 0, height: 0,),
+              child: const SizedBox(
+                width: 0,
+                height: 0,
+              ),
             ),
             OutlinedButton(
               child: const Text('Push'),

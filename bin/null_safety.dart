@@ -27,7 +27,6 @@ void main() {
   lineCount = 666;
   print(lineCount);
 
-  
   String helloWorld() {
     print('after 3 seconds');
     return '...';

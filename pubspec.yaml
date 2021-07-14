@@ -33,6 +33,7 @@ dependencies:
   connectivity: ^3.0.3
   dio: ^4.0.0
   random_color: ^1.0.6-nullsafety
+  collection: ^1.15.0
 
 dev_dependencies:
   flutter_test:
